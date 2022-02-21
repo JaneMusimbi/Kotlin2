@@ -2,7 +2,7 @@ fun main(){
     myFunction("Jane")
     modulus(7,3)
     sum(70,34,68,100)
-    playMe("basketball")
+    playMe("I love playing basketball")
 }
 
 
@@ -25,8 +25,8 @@ fun  sum(num1:Int, num2:Int, num3:Int, num4:Int): Int{
 
 }
 
-fun playMe(activity:String){
-    println("basketball")
+fun playMe(name: String) {
+    println(name)
 
 
 }
